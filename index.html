@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Women's Fashion Store</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">
+      <span class="logo-small">Women's</span>
+      <span class="logo-main">FASHION</span>
+      <span class="logo-sub">STORE</span>
+    </a>
+
+    <nav class="navigation">
+      <a href="#products">NEW IN</a>
+      <a href="#products">MEN'S</a>
+      <a href="#products">WOMEN</a>
+      <a href="#sale">SALE</a>
+      <a href="#products">SHOP</a>
+    </nav>
+
+    <div class="header-icons">
+      <button class="icon-button" aria-label="Search">
+        <svg viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-4-4"></path>
+        </svg>
+      </button>
+
+      <button class="icon-button" aria-label="Account">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 21c.8-4.2 3.5-6 8-6s7.2 1.8 8 6"></path>
+        </svg>
+      </button>
+
+      <button class="icon-button cart-icon" aria-label="Shopping cart">
+        <svg viewBox="0 0 24 24">
+          <path d="M5 8h14l1 13H4L5 8Z"></path>
+          <path d="M9 9V6a3 3 0 0 1 6 0v3"></path>
+        </svg>
+        <span class="cart-number">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="new-collection">NEW COLLECTION</p>
+
+      <h1>
+        SUMMER
+        <span>ESSENTIAL</span>
+      </h1>
+
+      <p class="drop-text">--- DROP NOW LIVE ---</p>
+
+      <a href="#products" class="shop-button">
+        SHOP NOW <span>→</span>
+      </a>
+    </div>
+
+    <div class="hero-image-area">
+      <div class="sale-badge" id="sale">
+        <small>SALE</small>
+        <strong>50%</strong>
+        <span>OFF</span>
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=85"
+        alt="Fashion model wearing summer clothing"
+        class="hero-image"
+      />
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="service-box">
+      <div class="service-icon">🔥</div>
+      <div>
+        <h3>TRENDING NOW</h3>
+        <p>Hot Right Now</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-icon">☆</div>
+      <div>
+        <h3>BEST SELLERS</h3>
+        <p>Top Picks</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-icon">📦</div>
+      <div>
+        <h3>NEW ARRIVALS</h3>
+        <p>New Style Added</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-icon">🚚</div>
+      <div>
+        <h3>FAST DELIVERY</h3>
+        <p>Across The World</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section" id="products">
+    <div class="section-heading">
+      <h2>Featured Products</h2>
+      <p>Discover our latest fashion essentials</p>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=85"
+            alt="Beige hoodie"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Hoodie</h3>
+          <p class="price">$69</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?auto=format&fit=crop&w=600&q=85"
+            alt="Long coat"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Long Coat</h3>
+          <p class="price">$99</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=85"
+            alt="Brown leather jacket"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Jacket</h3>
+          <p class="price">$59</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?auto=format&fit=crop&w=600&q=85"
+            alt="Red winter cap"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Winter Cap</h3>
+          <p class="price">$19</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=85"
+            alt="Classic sneakers"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Classic Sneakers</h3>
+          <p class="price">$79</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=85"
+            alt="Elegant black dress"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Elegant Dress</h3>
+          <p class="price">$89</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=85"
+            alt="Leather handbag"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Leather Bag</h3>
+          <p class="price">$119</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+        <div class="product-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=85"
+            alt="White basic t-shirt"
+          />
+          <button class="wishlist">♡</button>
+        </div>
+
+        <div class="product-details">
+          <h3>Basic T-Shirt</h3>
+          <p class="price">$29</p>
+          <div class="stars">★★★★★</div>
+          <button class="add-cart">ADD TO CART</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="style-picks">
+  <div class="sp-promos">
+    <article class="sp-promo">
+      <div class="sp-promo__copy">
+        <p class="sp-eyebrow">LIMITED TIME OFFER</p>
+        <h2>Spring Sale<br>Up to 50% Off</h2>
+        <a class="sp-button" href="#products">Shop The Sale <span>→</span></a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=85" alt="Model wearing a spring outfit">
+    </article>
+
+    <article class="sp-promo">
+      <div class="sp-promo__copy">
+        <p class="sp-eyebrow">NEW ARRIVALS</p>
+        <h2>Fresh Styles<br>Just Landed</h2>
+        <a class="sp-button" href="#products">Explore New In <span>→</span></a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=85" alt="New season clothing">
+    </article>
+  </div>
+
+  <div class="sp-heading" id="products">
+    <div>
+      <p class="sp-eyebrow">BEST SELLERS</p>
+      <h2>Our Most Loved Picks</h2>
+    </div>
+    <a class="sp-view-all" href="#all-products">View All Products <span>→</span></a>
+  </div>
+
+  <div class="sp-products">
+    <article class="sp-product">
+      <div class="sp-product__image">
+        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=85" alt="Neutral linen blazer" loading="lazy">
+        <button class="sp-heart" type="button" aria-label="Add Linen Blend Blazer to favorites">♡</button>
+      </div>
+      <h3>Linen Blend Blazer</h3>
+      <p class="sp-price">$89.99</p>
+      <p class="sp-rating"><span>★★★★★</span> <small>(124)</small></p>
+    </article>
+
+    <article class="sp-product">
+      <div class="sp-product__image">
+        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=85" alt="Black knit top" loading="lazy">
+        <button class="sp-heart" type="button" aria-label="Add Ribbed Knit Top to favorites">♡</button>
+      </div>
+      <h3>Ribbed Knit Top</h3>
+      <p class="sp-price">$29.99</p>
+      <p class="sp-rating"><span>★★★★★</span> <small>(98)</small></p>
+    </article>
+
+    <article class="sp-product">
+      <div class="sp-product__image">
+        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=85" alt="Wide leg trousers" loading="lazy">
+        <button class="sp-heart" type="button" aria-label="Add Wide Leg Trousers to favorites">♡</button>
+      </div>
+      <h3>Wide Leg Trousers</h3>
+      <p class="sp-price">$59.99</p>
+      <p class="sp-rating"><span>★★★★★</span> <small>(76)</small></p>
+    </article>
+
+    <article class="sp-product">
+      <div class="sp-product__image">
+        <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=85" alt="Leather shoulder bag" loading="lazy">
+        <button class="sp-heart" type="button" aria-label="Add Leather Shoulder Bag to favorites">♡</button>
+      </div>
+      <h3>Leather Shoulder Bag</h3>
+      <p class="sp-price">$79.99</p>
+      <p class="sp-rating"><span>★★★★★</span> <small>(112)</small></p>
+    </article>
+
+    <article class="sp-product">
+      <div class="sp-product__image">
+        <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=85" alt="Strappy heels" loading="lazy">
+        <button class="sp-heart" type="button" aria-label="Add Minimal Strappy Heels to favorites">♡</button>
+      </div>
+      <h3>Minimal Strappy Heels</h3>
+      <p class="sp-price">$49.99</p>
+      <p class="sp-rating"><span>★★★★★</span> <small>(64)</small></p>
+    </article>
+
+    <article class="sp-product">
+      <div class="sp-product__image">
+        <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=85" alt="Oversized sunglasses" loading="lazy">
+        <button class="sp-heart" type="button" aria-label="Add Oversized Sunglasses to favorites">♡</button>
+      </div>
+      <h3>Oversized Sunglasses</h3>
+      <p class="sp-price">$19.99</p>
+      <p class="sp-rating"><span>★★★★★</span> <small>(53)</small></p>
+    </article>
+  </div>
+
+  <div class="sp-benefits">
+    <div><span class="sp-benefit-icon">♧</span><p><strong>Free Shipping</strong><br>On orders over $99</p></div>
+    <div><span class="sp-benefit-icon">◇</span><p><strong>Easy Returns</strong><br>30-day returns</p></div>
+    <div><span class="sp-benefit-icon">♢</span><p><strong>Secure Payment</strong><br>100% protected</p></div>
+    <div><span class="sp-benefit-icon">♧</span><p><strong>24/7 Support</strong><br>We're here to help</p></div>
+  </div>
+
+  <section class="sp-newsletter">
+    <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85" alt="Model in a neutral outfit" loading="lazy">
+    <div class="sp-newsletter__content">
+      <p class="sp-eyebrow">GET 10% OFF YOUR FIRST ORDER</p>
+      <h2>Join Our Style List</h2>
+      <p>Sign up for exclusive offers, new arrivals, and style inspiration.</p>
+      <form class="sp-newsletter__form">
+        <label class="sp-sr-only" for="sp-email">Your email</label>
+        <input id="sp-email" type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>git config --global user.email "hudaasim2526@gmail.com"
+  </section>
+</section>
+
+</body>
+</html>
